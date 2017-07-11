@@ -3,7 +3,7 @@
 `$ docker run --name hoge -p 26900:26900/tcp -p 26900:26900/udp -p 26901:26901/udp -p 26901:26901/udp -d multicolorworld/7days-to-die-server-image:latest`
 
 ## Use castom setting
-`$ docker run --name hoge -p 26900:26900/tcp -p 26900:26900/udp -p 26901:26901/udp -p 26901:26901/udp -d -v ./serverconfig.xml:/root/steam/7dtd/serverconfig.xml multicolorworld/7days-to-die-server-image:latest`
+`$ docker run --name hoge -p 26900:26900/tcp -p 26900:26900/udp -p 26901:26901/udp -p 26902:26902/udp -d -v ./serverconfig.xml:/root/steam/7dtd/serverconfig.xml multicolorworld/7days-to-die-server-image:latest`
 
 ### If you are administer, expose 8080 or 8081 port as necessary.
 
